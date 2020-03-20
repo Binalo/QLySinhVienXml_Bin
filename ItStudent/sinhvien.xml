@@ -1,28 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <lophoc>
-  <sinhvien masv="s01">
-    <hoten>Nguyen Van Dien</hoten>
-    <lop>E</lop>
-    <diachi>Hue</diachi>
-  </sinhvien>
-  <sinhvien masv="s02">
-    <hoten>Nguyen Hoang Anh</hoten>
-    <lop>E</lop>
-    <diachi>Ha Tinh</diachi>
-  </sinhvien>
-  <sinhvien masv="s03">
+  <sinhvien masv="03">
     <hoten>Vo Tran Nhat Binh</hoten>
-    <lop>E</lop>
+    <lop>Công nghệ thông tin E</lop>
+    <tuoi>20</tuoi>
+    <sdt>213123</sdt>
     <diachi>Hue</diachi>
   </sinhvien>
-  <sinhvien masv="s04">
-    <hoten>Ho Xuan Anh</hoten>
-    <lop>C</lop>
+  <sinhvien masv="02">
+    <hoten>Nguyen Hoang Anh</hoten>
+    <lop>Công nghệ thông tin E</lop>
+    <tuoi>25</tuoi>
+    <sdt>21321344</sdt>
+    <diachi>ha Tinh</diachi>
+  </sinhvien>
+  <sinhvien masv="05">
+    <hoten>Ha Van Minh Phong</hoten>
+    <lop>Công nghệ phần mềm B</lop>
+    <tuoi>19</tuoi>
+    <sdt>21388712978</sdt>
     <diachi>Da Nang</diachi>
   </sinhvien>
-  <sinhvien masv="s06">
-    <hoten>Ho Xuan Anh</hoten>
-    <lop>C</lop>
-    <diachi>Da Nang</diachi>
+  <sinhvien masv="06">
+    <hoten>Hoàng Quốc An</hoten>
+    <lop>Công Nghệ Thông TIn A</lop>
+    <tuoi>20</tuoi>
+    <sdt>21388712978</sdt>
+    <diachi>Hai Phong</diachi>
+  </sinhvien>
+  <sinhvien masv="01">
+    <hoten>Nguyen Van Dien</hoten>
+    <lop>Báo Chí B</lop>
+    <tuoi>19</tuoi>
+    <sdt>09352222</sdt>
+    <diachi>Hue</diachi>
+  </sinhvien>
+  <sinhvien masv="07">
+    <hoten>Nhat Huy</hoten>
+    <lop>Báo Chí D</lop>
+    <tuoi>25</tuoi>
+    <sdt>09352222</sdt>
+    <diachi>Quang Binh</diachi>
   </sinhvien>
 </lophoc>
