@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 using System.Data.SqlClient;
-using System.IO;
+
 namespace ItStudent
 {
     class JustDoIt
@@ -133,6 +133,25 @@ namespace ItStudent
             {
                 MessageBox.Show("Không có sinh viên mã " + s.id + " để xóa");
             }
+        }
+
+
+        public void TimSV(sinhvien s, DataGridView d)
+        {
+
+            XmlNode svcantim = root.SelectSingleNode("sinhvien[@masv='" + s.id + "']");
+            if (svcantim != null) // de xoa node hien tai ta phai sd nut cha cua no
+            {
+                d.Rows.Clear();
+                d.ColumnCount = 6;
+                d.Rows[0].Cells[0].Value = svcantim.Attributes[0].InnerText;
+                d.Rows[0].Cells[1].Value = svcantim.SelectSingleNode("hoten").InnerText;
+                d.Rows[0].Cells[2].Value = svcantim.SelectSingleNode("lop").InnerText;
+                d.Rows[0].Cells[3].Value = svcantim.SelectSingleNode("tuoi").InnerText;
+                d.Rows[0].Cells[4].Value = svcantim.SelectSingleNode("sdt").InnerText;
+                d.Rows[0].Cells[5].Value = svcantim.SelectSingleNode("diachi").InnerText;
+            }
+            
         }
     }
 }

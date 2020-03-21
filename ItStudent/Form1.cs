@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 using System.Data.SqlClient;
-using System.IO;
+using ItStudent.Properties;
 
 namespace ItStudent
 {
@@ -186,6 +186,12 @@ namespace ItStudent
 
 
         }
-
+        
+        private void btnTK_Click(object sender, EventArgs e)
+        {
+            sinhvien sv = new sinhvien();
+            sv.id = txtTK.Text;
+            j.TimSV(sv, dataviewSV);
+        }
     }
 }
